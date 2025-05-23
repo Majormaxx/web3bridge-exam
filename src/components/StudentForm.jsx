@@ -15,7 +15,7 @@ const StudentForm = () => {
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md">
+    <div className="bg-white p-6 rounded-lg shadow-md mt-4">
       <h2 className="text-2xl font-bold mb-4">Register Student</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
