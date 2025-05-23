@@ -41,3 +41,20 @@ This app enables:
 - **Tailwind CSS** for styling
 - **useState & useEffect** hooks for state management
 - Vite or Create React App (CRA)
+
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or later)
+- npm or yarn
+
+### Installation and Running Locally
+
+```bash
+git https://github.com/Majormaxx/web3bridge-exam.git
+cd web3bridge-exam
+npm install  # or yarn install
