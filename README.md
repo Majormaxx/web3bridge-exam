@@ -1,12 +1,43 @@
-# React + Vite
+# Student Savings Group Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React + Tailwind CSS** web application that simulates a **savings group of 12 students** pooling funds to invest in a **Play-to-Earn blockchain game**. The game yields a **20% return per gameplay**, and students earn **weekly interest based on their chosen tier**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## Expanding the ESLint configuration
+This app enables:
+- Student registration by name and tier selection
+- Accurate calculation of weekly interest and withdrawal amount
+- Dashboard view of group savings and individual breakdown
+- Tier validation to ensure correct contributions
+- Membership management with withdrawal and new entries
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tiers Breakdown
+
+| Tier | Amount (₦) | Weekly Interest | Weekly Return |
+|------|------------|-----------------|----------------|
+| 1    | 10,000     | 5%              | ₦10,500        |
+| 2    | 20,000     | 10%             | ₦22,000        |
+| 3    | 30,000     | 20%             | ₦36,000        |
+
+---
+
+## Features
+
+- ✅ **Student Registration:** Add student name and select a tier.
+- ✅ **Tier Validation:** Ensure the correct amount is selected per tier.
+- ✅ **Weekly Interest Calculation:** See real-time interest and withdrawal totals.
+- ✅ **Dashboard Overview:** Visual display of total savings and member details.
+- ✅ **Withdrawal & Membership Swap:** Remove and replace members dynamically.
+- ✅ **Input Validation & Dynamic Updates:** Clean, responsive UI with instant feedback.
+
+---
+
+## Tech Stack
+
+- **React (JavaScript)**
+- **Tailwind CSS** for styling
+- **useState & useEffect** hooks for state management
+- Vite or Create React App (CRA)
